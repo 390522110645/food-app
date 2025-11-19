@@ -6,7 +6,7 @@ import { GiChickenLeg } from "react-icons/gi";
 function Card({name,image,price,type}) {
 
     return (
-        <div className="w-[300px] h-[400px] bg-white  p-3 rounded-lg shadow-lg flex flex-col gap-4 shadow-lg hover:border-2 border-blue-300">
+        <div className="w-[300px] h-[400px] bg-white  p-3 rounded-lg shadow-lg flex flex-col gap-4  hover:border-2 border-blue-300">
             <div className="w-full h-[50%] overflow-hidden ">
                 {image && <img src={image} alt={name} className="w-full h-full object-cover rounded-lg hover:scale-110 transition-all duration-200"/>}
                </div>
